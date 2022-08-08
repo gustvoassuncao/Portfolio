@@ -1,12 +1,12 @@
 import React from "react";
-import { GlobalStyles } from "styled-components";
+import { GlobalStyles } from "./GlobalStyles";
 import { Router } from "./routes/router";
 
 
 function App() {
   return (
     <>
-     
+
       <GlobalStyles />
       <Router/>
 

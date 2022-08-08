@@ -1,3 +1,8 @@
+
+export const goToHome = (navigate) => {
+  navigate("/")
+}
+
 export const goToAbout = (navigate) => {
     navigate("/About")
   }
@@ -6,8 +11,8 @@ export const goToAbout = (navigate) => {
     navigate("/Skills")
   }
 
-export const goToProjects = (navigate) => {
-      navigate("/Projects")
+export const goToPortfolio = (navigate) => {
+      navigate("/Portfolio")
     }
   
 export const goToContact = (navigate) => {
