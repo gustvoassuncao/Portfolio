@@ -1,10 +1,16 @@
+import React from "react";
+import { GlobalStyles } from "./GlobalStyles";
+import { Router } from "./routes/router";
 
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+
+      <GlobalStyles />
+      <Router/>
+
+    </>
   );
 }
 
