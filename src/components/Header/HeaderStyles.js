@@ -9,7 +9,7 @@ export const ContainerHeader = styled.div`
 `
 export const Buttons = styled.div`
    svg {
-        display: flex; 
+        display: block; 
         flex-direction: column; 
         column-gap: normal; 
         height: 60px;   
@@ -18,10 +18,10 @@ export const Buttons = styled.div`
         cursor: pointer; 
         font-size: 25px; 
     &:hover {
-            color: orange; 
+            color: rgb(255, 69, 0); 
     };
     &:active {
-            color: orange; 
+            color: rgb(255, 69, 0); 
         };
     }
 `

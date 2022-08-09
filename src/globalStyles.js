@@ -20,5 +20,9 @@ export const GlobalStyles = createGlobalStyle`
   border-radius: 20px;
 }
 
+body {
+  background-color:	whitesmoke	;
+}
+
 `
 
