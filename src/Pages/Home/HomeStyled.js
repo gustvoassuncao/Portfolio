@@ -1,44 +1,45 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-    top: 27% ; 
-    left: 15%; 
     position: absolute;
+    top: 25% ; 
+    left: 15%; 
     display: flex; 
-    
 `
 
 export const PhotoContainer = styled.div`
     
     img{ 
         top: 25% ; 
-        width: 55%; 
+        width: 60%; 
         border-radius: 250px; 
-        /* box-shadow: 0px 1px 3px 5px grey;  */
     }
 
 `
 
 export const TitleContainer = styled.div`
     border-left: 2px solid black; 
-    height: 150px; 
-    margin-left: -200px;
-    margin-top: 60px;  
+    height: 170px; 
+    margin-left: -100px;
+    margin-top: 80px;  
     
 
     h1{ 
-        font-size: 45px;
+        font-size: 50px;
         margin-top: 10px;   
         margin-left: 20px; 
         color: black; 
+
+
+
     }
     h4{ 
         display: flex;
         justify-content: center; 
-        font-size: 23px;
+        font-size: 20px;
         color: rgb(255, 69, 0); 
-        margin-left: 20px; 
-        max-width: 27em; 
+        margin-left: 19px; 
+        max-width: 32em; 
     }
 
 `

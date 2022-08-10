@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 
     const Home = () => {
     const navigate = useNavigate()
+    
     const onResumeClick= () => {
         window.open(cv);
         }
@@ -18,10 +19,10 @@ import { useNavigate } from "react-router-dom";
             </PhotoContainer>
             <TitleContainer>
                 <h1>Olá, sou Gustavo Monteiro 👋</h1>
-                <h4> Sou um Desenvolvedor Front-end que está em constante prática para me tornar cada vez mais eficiente.</h4>
+                <h4> Sou um Desenvolvedor Front-end que está em constante prática para me tornar cada vez mais eficiente. Curto muito passar momentos em família, aprender coisas novas e assistir animes.</h4>
 
                 <ButtonContainer>
-                <button onClick={onResumeClick}>CURRICULO</button>
+                <button onClick={onResumeClick}>CURRÍCULO</button>
                 <button onClick={() => goToContact(navigate)} >CONTATO</button>
                 </ButtonContainer>
             </TitleContainer>

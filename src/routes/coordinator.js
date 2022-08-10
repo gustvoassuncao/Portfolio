@@ -3,8 +3,8 @@ export const goToHome = (navigate) => {
   navigate("/")
 }
 
-export const goToAbout = (navigate) => {
-    navigate("/About")
+export const goToEducation = (navigate) => {
+    navigate("/Education")
   }
 
   export const goToSkills = (navigate) => {

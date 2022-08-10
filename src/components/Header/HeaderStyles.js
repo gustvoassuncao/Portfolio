@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const ContainerHeader = styled.div`
-    background-color: black; 
+    background-color: #121214; 
     height: 100vh; 
     width: 70px; 
     display: flex;
     align-items: center;
+    position: absolute;
+    border-right: 1px solid white; 
 `
 export const Buttons = styled.div`
    svg {
