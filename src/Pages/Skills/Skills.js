@@ -1,10 +1,12 @@
 import React from "react";
+import { SkillsContainer } from "./SkillsStyled"
+import skills from "../../assets/skills.png"
 
     const Portfolio = () => {
     return (
-        <div>
-
-        </div>
+        <SkillsContainer>
+        <img src={skills} />
+        </SkillsContainer>
     )
 
 }

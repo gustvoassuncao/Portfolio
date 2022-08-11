@@ -1,19 +1,15 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.div`
+export const EducationContainer = styled.div`
     position: absolute; 
     top: 20% ; 
     left: 15%; 
     width: 70%; 
     height: 60%; 
     border: 2px dashed rgb(255, 69, 0); 
-    border-radius: 30px; 
+    border-radius: 40px; 
     padding-top: 30px;
     padding-left: 100px;
-
-    svg { 
-        /* height: 1000px;  */
-    }
 
     h1 {
         margin-left: 25vw; 
@@ -38,9 +34,5 @@ export const AboutContainer = styled.div`
         margin-left: 13vh;  
     }
 
-
-`
-
-export const imgContainer = styled.div`
 
 `
