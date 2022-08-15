@@ -3,8 +3,7 @@ import {useNavigate} from "react-router-dom"
 import {goToHome, goToSkills, goToEducation, goToContact, goToPortfolio } from "../../routes/coordinator"
 import { ContainerHeader, Buttons, Logo } from "./HeaderStyles"
 import { AiOutlineHome, AiOutlineUser, AiOutlineCoffee, AiOutlineMail, AiOutlineLaptop   } from "react-icons/ai";
-// AiOutlineMessage
-// AiOutlineMail
+
     const Header = () => {
     const navigate = useNavigate ()
 

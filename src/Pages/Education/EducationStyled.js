@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const EducationContainer = styled.div`
     position: absolute; 
-    top: 20% ; 
-    left: 15%; 
+    display: flex; 
+    flex-wrap: wrap;
+    top: 15% ; 
+    margin-left: 15%; 
     width: 70%; 
-    height: 60%; 
+    height: 70%; 
     border: 2px dashed rgb(255, 69, 0); 
     border-radius: 40px; 
     padding-top: 30px;
@@ -19,19 +21,19 @@ export const EducationContainer = styled.div`
 
     h3 {
         margin-left: 13vw; 
-        font-size: 25px; 
+        font-size: 20px; 
     }
 
     p {
         margin-left: 13vw; 
         margin-bottom: 2%; 
         width: 55%; 
-        font-size: 17px; 
+        font-size: 16px; 
 
     }
 
     img { 
-        margin-left: 13vh;  
+        margin-left: 15vh;  
     }
 
 

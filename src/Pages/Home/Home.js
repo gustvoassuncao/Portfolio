@@ -18,7 +18,7 @@ import { useNavigate } from "react-router-dom";
                 <img src={photo} alt='imagem de perfil' />
             </PhotoContainer>
             <TitleContainer>
-                <h1>Olá, sou Gustavo Monteiro 👋</h1>
+                <h1> &lt; Olá, sou Gustavo Monteiro 👋 /&gt;</h1>
                 <h4> Sou um Desenvolvedor Front-end que está em constante prática para me tornar cada vez mais eficiente. Curto muito passar momentos em família, aprender coisas novas e assistir animes.</h4>
 
                 <ButtonContainer>

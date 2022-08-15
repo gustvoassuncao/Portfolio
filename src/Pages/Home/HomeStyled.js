@@ -8,36 +8,32 @@ export const HomeContainer = styled.div`
 `
 
 export const PhotoContainer = styled.div`
-    
     img{ 
         top: 25% ; 
-        width: 60%; 
-        border-radius: 250px; 
+        width: 45%; 
+        border-radius: 250px;   
     }
 
 `
 
 export const TitleContainer = styled.div`
-    border-left: 2px solid black; 
-    height: 170px; 
-    margin-left: -100px;
+    border-left: 2px solid #de3926; 
+    height: 130px; 
+    margin-left: -220px;
     margin-top: 80px;  
     
 
     h1{ 
-        font-size: 50px;
-        margin-top: 10px;   
+        font-size: 35px;
         margin-left: 20px; 
-        color: black; 
-
-
-
+        /* background-color: #de3926;
+        color: white;  */
     }
     h4{ 
         display: flex;
         justify-content: center; 
-        font-size: 20px;
-        color: rgb(255, 69, 0); 
+        font-size: 18px;
+        color: #7a7a7a;
         margin-left: 19px; 
         max-width: 32em; 
     }

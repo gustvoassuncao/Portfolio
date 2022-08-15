@@ -6,7 +6,7 @@ export const ContainerHeader = styled.div`
     width: 70px; 
     display: flex;
     align-items: center;
-    position: absolute;
+    position: fixed;
     box-shadow: 1px 3px 10px 5px grey;
 `
 export const Buttons = styled.div`
