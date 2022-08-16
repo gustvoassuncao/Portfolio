@@ -1,6 +1,5 @@
 import React from "react";
 import poke from '../../assets/poke.png';
-import photo from '../../assets/photo.png';
 import ifuture from '../../assets/ifuture.png';
 import labex from '../../assets/labex.png';
 import financas from '../../assets/financas.png';

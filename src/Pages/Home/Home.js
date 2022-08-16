@@ -1,6 +1,6 @@
 import React from "react";
 import { HomeContainer, PhotoContainer, TitleContainer, ButtonContainer } from "./HomeStyled"
-import photo from "../../assets/photo.png"
+import photo2 from "../../assets/photo2.jpg"
 import cv from "../../assets/cv.pdf"
 import { goToContact } from "../../routes/coordinator";
 import { useNavigate } from "react-router-dom";
@@ -15,7 +15,7 @@ import { useNavigate } from "react-router-dom";
     return (
         <HomeContainer>
             <PhotoContainer>
-                <img src={photo} alt='imagem de perfil' />
+                <img src={photo2} alt='imagem de perfil' />
             </PhotoContainer>
             <TitleContainer>
                 <h1> &lt; Olá, sou Gustavo Monteiro 👋 /&gt;</h1>

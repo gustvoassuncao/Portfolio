@@ -7,7 +7,7 @@ export const ContainerHeader = styled.div`
     display: flex;
     align-items: center;
     position: fixed;
-    box-shadow: 1px 3px 10px 5px grey;
+    border-right: 1px solid #a8a8b3; 
 `
 export const Buttons = styled.div`
    svg {
@@ -16,14 +16,14 @@ export const Buttons = styled.div`
         column-gap: normal; 
         height: 60px;   
         margin-left: 20px; 
-        color: white; 
+        color: #a8a8b3; 
         cursor: pointer; 
         font-size: 25px; 
     &:hover {
-            color: rgb(255, 69, 0); 
+            color: #04d361; 
     };
     &:active {
-            color: rgb(255, 69, 0); 
+            color: #04d361; 
         };
     }
 `
