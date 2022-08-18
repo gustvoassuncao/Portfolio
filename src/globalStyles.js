@@ -1,8 +1,7 @@
 import { createGlobalStyle } from "styled-components";
-import space2 from "./assets/space2.jpg"
 import alinhamento from "./assets/alinhamento.jpg"
 import alinhamento2 from "./assets/alinhamento2.jpg"
-import alinhamento3 from "./assets/alinhamento3.gif"
+
 
 export const GlobalStyles = createGlobalStyle`
     *{
@@ -26,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
 
 body {
   background-color: black;
-  background-image: url(${alinhamento}) ;
+  background-image: url(${alinhamento2}) ;
   background-size: auto;
 }
 

@@ -5,11 +5,6 @@ export const HomeContainer = styled.div`
     top: 25% ; 
     left: 15%; 
     display: flex; 
-    /* background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(2px);
-    border-radius: 15px;
-    box-shadow: rgb(0 0 0 / 50%) 10px 10px 10px; */
-    
 `
 
 export const PhotoContainer = styled.div`
@@ -17,8 +12,12 @@ export const PhotoContainer = styled.div`
     img{ 
         top: 25% ; 
         width: 55%; 
+        filter: grayscale(30%);
         border-radius: 200px;  
         box-shadow: 4px 3px 5px #6833e4;  
+        &:hover {
+            box-shadow: 4px 3px 5px #04d361;  
+        }
     }
 
 `
@@ -59,7 +58,6 @@ export const ButtonContainer = styled.div`
         height: 40px;
         background-color: black; 
         color: white; 
-        font-family: 'DM Sans', sans-serif;
         &:hover {
             background-color: #6833e4; 
         }

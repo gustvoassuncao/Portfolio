@@ -9,9 +9,6 @@ import { AiOutlineHome, AiOutlineUser, AiOutlineCoffee, AiOutlineMail, AiOutline
 
     return (
         <ContainerHeader>
-            {/* <Logo>           
-                 <h1> Gustavo Monteiro </h1>
-            </Logo> */}
             <Buttons>
             <AiOutlineHome onClick={()=> goToHome(navigate)} />
             <AiOutlineUser onClick={()=> goToEducation(navigate)} />

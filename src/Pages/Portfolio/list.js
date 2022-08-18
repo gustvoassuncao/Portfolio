@@ -1,4 +1,4 @@
-import { CardProjects, Container } from "./PortfolioStyled"
+import { CardProjects } from "./PortfolioStyled"
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -11,7 +11,7 @@ const List = ({ itens }) => {
   return (
     <CardProjects>
       {itens.map((item) => (
-        <Card  className="ConfCards"  sx={{ minWidth: 270 }}>
+        <Card  className="ConfCards" key={item.id}  sx={{ minWidth: 260 }}>
           <CardMedia
             component="img"
             height="160"
@@ -26,9 +26,9 @@ const List = ({ itens }) => {
               {item.description}
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small">GitHub</Button>
-            <Button size="small">Live Demo</Button>
+          <CardActions className="Buttons">
+            <Button href={item.git}  variant="outlined" size="small">GitHub</Button>
+            <Button href={item.live} variant="outlined" size="small">Live Demo</Button>
           </CardActions>
         </Card>
       ))}

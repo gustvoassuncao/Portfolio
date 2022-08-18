@@ -1,8 +1,8 @@
 import React from "react";
-import { EducationContainer } from "./EducationStyled"
+import { EducationContainer, ImgContainer } from "./EducationStyled"
 import one from "../../assets/one.png"
 import labe from "../../assets/labe.png"
-import { Title } from "../../Pages/Portfolio/PortfolioStyled"
+import { Title  } from "../../Pages/Portfolio/PortfolioStyled"
 
     const Education = () => {
     return (
@@ -12,14 +12,18 @@ import { Title } from "../../Pages/Portfolio/PortfolioStyled"
             </Title>
             <EducationContainer> 
                 <h3> 🌎 Inglês fluente/Avançado</h3>
-                <p>Certificado pelo MyenglishOnline e vim me aperfeiçoando no dia a dia</p>
-                <h3> ⚛️ Bootcamp Labenu Fullstack</h3>
-                <p>Simula a rotina de um ambiente de trabalho com projetos práticos diariamente e equivale há mais de 1 ano atuando no mercado - módulo de front-end finalizado. </p>
-                <h3> 💻 OneBitCode  FullStack</h3>
-                <p>Curso extra de JavaScript e React. </p>
+                <p>Certificado pelo MyenglishOnline e Duolingo e venho me aperfeiçoando diariamente.</p>
+                <h3> ⚛️ Labenu Fullstack</h3>
+                <p> Bootcamp intensivo Simula a rotina de um ambiente de trabalho com projetos práticos diariamente e equivale há mais de 1 ano atuando no mercado sempre utilizando git e trabalhando em equipe - módulo de front-end finalizado. </p>
+                <h3> 💻 OneBitCode</h3>
+                <p>Curso fullstack focado em javascript e React. </p>
+                {/* <ImgContainer>
                 <a href="https://onebitcode.com/lp/" target="_blank" ><img src={one} /></a>
                 <a href="https://www.labenu.com.br/" target="_blank"><img src={labe}  /></a>
-            </EducationContainer>
+                </ImgContainer> */}
+                </EducationContainer>
+
+
         </>
     )
 }

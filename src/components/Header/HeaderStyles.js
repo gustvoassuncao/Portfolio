@@ -30,13 +30,5 @@ export const Buttons = styled.div`
 
 
 // export const Logo = styled.div`
-//     font-size: 10px; 
-//     font-weight: lighter;
-//     display: flex; 
-//     align-items: center; 
-//     color: white; 
-//     cursor: pointer; 
-//     &:hover {
-//             color: orange; 
-//     };
+
 // `

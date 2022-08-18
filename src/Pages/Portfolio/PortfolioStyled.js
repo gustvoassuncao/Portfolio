@@ -10,6 +10,7 @@ export const Title = styled.div `
     border-bottom: 3px solid  #04d361;
     width: 8%;
     margin-top: 3%;
+    
   }
 `
 
@@ -45,6 +46,16 @@ export const CardProjects = styled.div `
 
   p {
     color: white;
+    
   }
+
+  .Buttons {
+    justify-content: center; 
+  }
+
+`
+
+export const Buttons = styled.div`
+
 
 `
