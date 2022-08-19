@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Title = styled.div `
-  margin-left: 160px; 
+  margin-left: 100px; 
   color: white;
   h2 {
     font-size: 35px; 
@@ -37,7 +37,7 @@ export const CardProjects = styled.div `
   display: flex; 
   flex-wrap: wrap;
   top: 20%; 
-  margin-left: 70px; 
+  margin-left: 90px; 
 
   .CardText{
     padding: 10px;

@@ -11,7 +11,7 @@ export const EducationContainer = styled.div`
     top: 20% ; 
     margin-left: 23%; 
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(3px);
     border-radius: 10px;
     box-shadow: 1px 3px 5px 1px #6833e4;
     width: 60%; 

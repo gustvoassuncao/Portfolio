@@ -26,9 +26,29 @@ export const Buttons = styled.div`
             color: #04d361; 
         };
     }
+
+
+
 `
 
 
-// export const Logo = styled.div`
+export const Socials = styled.div`
+        padding-top: 540px; 
+   svg {
+        border-bottom: 1px solid #a8a8b3; 
+        display: flex; 
+        justify-self: flex-end;
+        margin-left: -27px; 
+        color: #a8a8b3; 
+        height: 40px;
+        cursor: pointer; 
+        font-size: 22px; 
+    &:hover {
+            color: #04d361; 
+    };
+    &:active {
+            color: #04d361; 
+        };
+    }
 
-// `
+`

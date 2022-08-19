@@ -16,7 +16,7 @@ const List = ({ itens }) => {
             component="img"
             height="160"
             image={item.image}
-            alt="pokedex"
+            alt="projetos"
           />
           <CardContent className="CardText">
             <Typography gutterBottom variant="h6" component="div">
@@ -27,8 +27,8 @@ const List = ({ itens }) => {
             </Typography>
           </CardContent>
           <CardActions className="Buttons">
-            <Button href={item.git}  variant="outlined" size="small">GitHub</Button>
-            <Button href={item.live} variant="outlined" size="small">Live Demo</Button>
+            <Button href={item.git} target="_blank"  variant="outlined" size="small">GitHub</Button>
+            <Button href={item.live} target="_blank" variant="outlined" size="small">Live Demo</Button>
           </CardActions>
         </Card>
       ))}
