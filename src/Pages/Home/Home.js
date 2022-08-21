@@ -20,7 +20,6 @@ import { useNavigate } from "react-router-dom";
             <TitleContainer>
                 <h1> &lt; Olá, sou Gustavo Monteiro 👋 /&gt;</h1>
                 <h4> Sou um Desenvolvedor Front-end que está em constante prática para me tornar cada vez mais eficiente. Curto muito passar momentos em família, aprender coisas novas e assistir animes.</h4>
-
                 <ButtonContainer>
                 <button onClick={onResumeClick}>CURRÍCULO</button>
                 <button onClick={() => goToContact(navigate)} >CONTATO</button>

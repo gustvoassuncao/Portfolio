@@ -14,26 +14,22 @@ export const EducationContainer = styled.div`
     backdrop-filter: blur(3px);
     border-radius: 10px;
     box-shadow: 1px 3px 5px 1px #6833e4;
-    width: 60%; 
+    width: 53%; 
     min-width: 280px;
-    
     &:hover {
       box-shadow: 1px 3px 5px 2px #04d361;
     }
-
     h3 {
         font-size: 1.2rem; 
         color: #04d361;
         line-height: 1.5; 
     }
-
     p {
         width: 60%; 
         font-size:  1rem; 
         color: white; 
         font-weight: 800;
         padding-bottom: 1rem;
-        
     }
 
 `

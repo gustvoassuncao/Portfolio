@@ -11,7 +11,7 @@ import { Title  } from "../../Pages/Portfolio/PortfolioStyled"
                 <h2>Educação</h2>
             </Title>
             <EducationContainer> 
-                <h3> 🌎 Inglês fluente/Avançado</h3>
+                <h3> 🌎 Inglês fluente</h3>
                 <p>Certificado pelo MyenglishOnline e Duolingo e venho me aperfeiçoando diariamente.</p>
                 <h3> ⚛️ Labenu Fullstack</h3>
                 <p> Bootcamp intensivo Simula a rotina de um ambiente de trabalho com projetos práticos diariamente e equivale há mais de 1 ano atuando no mercado sempre utilizando git e trabalhando em equipe - módulo de front-end finalizado. </p>

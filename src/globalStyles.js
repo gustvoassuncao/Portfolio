@@ -1,7 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import alinhamento from "./assets/alinhamento.jpg"
 import alinhamento2 from "./assets/alinhamento2.jpg"
-
 
 export const GlobalStyles = createGlobalStyle`
     *{
@@ -12,9 +10,7 @@ export const GlobalStyles = createGlobalStyle`
 
     * {
   scrollbar-width: thin;
-  /* scrollbar-color: red; */
 }
-/* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 5px;
 }
@@ -28,6 +24,5 @@ body {
   background-image: url(${alinhamento2}) ;
   background-size: auto;
 }
-
 `
 
