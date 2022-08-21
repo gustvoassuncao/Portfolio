@@ -21,7 +21,7 @@ Portfolio mostrando projetos desenvolvidos por mim e em equipe, sempre utilizand
 
 ## 🌎 Link Deployado
 
-https://portfoliogustavo8.surge.sh/
+https://gustavoportfolio9.surge.sh/
 
 ## 📸 Imagens
 ![image](https://user-images.githubusercontent.com/104602579/185789317-93c1f4a0-011a-4b75-9857-0d32c2251db3.png)
