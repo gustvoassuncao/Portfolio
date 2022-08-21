@@ -1,7 +1,6 @@
 import React from "react";
 import { HomeContainer, PhotoContainer, TitleContainer, ButtonContainer } from "./HomeStyled"
 import photo2 from "../../assets/photo2.jpg"
-import cv from "../../assets/cv.pdf"
 import { goToContact } from "../../routes/coordinator";
 import { useNavigate } from "react-router-dom";
 
@@ -9,9 +8,8 @@ import { useNavigate } from "react-router-dom";
     const navigate = useNavigate()
     
     const onResumeClick= () => {
-        window.open(cv);
+        window.open("https://drive.google.com/file/d/1kUSRoRTdP_BG9A5krGEbnvsm9SuNbW71/view");
         }
-
     return (
         <HomeContainer>
             <PhotoContainer>
