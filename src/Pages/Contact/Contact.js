@@ -3,7 +3,25 @@ import {MdOutlineMarkEmailRead} from 'react-icons/md'
 import {FiPhoneCall} from 'react-icons/fi'
 import { ContainerGeral } from "./ContactStyled"
 import { Title  } from "../../Pages/Portfolio/PortfolioStyled"
+import emailjs from "emailjs-com";
+
     const Contact = () => {
+
+
+        function sendEmail(e) {
+            e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'template_eur8pmc', e.target, 'cBfMQovSUC6gqQA1r')
+            .then((result) => {
+                console.log(result.text);
+                alert("Em breve te retorno, obrigado!");
+            }, (error) => {
+                alert(error.text);
+            });
+            e.target.reset()
+        }
+
+
         return (
             <ContainerGeral>
             <Title>
@@ -27,22 +45,22 @@ import { Title  } from "../../Pages/Portfolio/PortfolioStyled"
                         </div>
                     </div>
                     <div className="form-contato">
-                    <form action="https://formsubmit.co/688f70733aade9822bfd695d8cec0041" method="POST">
+                    <form onSubmit={sendEmail}>
                         <input type='text' 
                             placeholder="Nome"
                             className='input-nome' 
-                            name='name'
+                            name='user_name'
                             required
                         />
                         <input type='email' 
                             placeholder="Email" 
                             className='input-email'
-                            name='email' 
+                            name='user_email' 
                             required
                         />
-                        <textarea placeholder="Mensagem" className='textarea-mensagem'
-                        required name='message'></textarea>
-                        <button className='btn-contato' type='submit'>ENVIAR<i class="uil uil-message"></i></button>
+                        <textarea placeholder="Mensagem" name="message" className='textarea-mensagem'
+                        required></textarea>
+                        <button className='btn-contato' type='submit' value="Send" >ENVIAR<i class="uil uil-message"></i></button>
                         </form>
                     </div>
             </div>

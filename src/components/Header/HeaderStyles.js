@@ -35,7 +35,6 @@ export const Buttons = styled.div`
 export const Socials = styled.div`
         padding-top: 540px; 
    svg {
-        /* border-bottom: 1px solid #04d361;  */
         display: flex; 
         justify-self: flex-end;
         margin-left: -22px; 
@@ -50,5 +49,9 @@ export const Socials = styled.div`
             color: #04d361; 
         };
     }
+
+    @media screen and (max-width:1000px){
+        padding-top: 450px; 
+}
 
 `
