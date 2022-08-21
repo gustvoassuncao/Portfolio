@@ -19,7 +19,7 @@ import { Title, CardText } from "./PortfolioStyled"
             title: 'Pokedex',
             description: ' Consumo de API do pokemon para listar os pokemons e mostrar tela com detalhes pelo ID de cada pokemon. REACTJS | STYLED-COMPONENTS',
             git: "https://github.com/gustavomonteirodev/Pokedex",
-            live: "https://tomars.surge.sh/" 
+            live: "https://pokedex-devs22.surge.sh/" 
         }, 
         {
           id: 2,
@@ -35,7 +35,7 @@ import { Title, CardText } from "./PortfolioStyled"
         title: 'LabeX',
         description: 'Plataforma de viagens espaciais consumindo API, contendo dois tipos de acesso: um público e uma privado. REACTJS | STYLED-COMPONENTS',
         git: "https://github.com/gustavomonteirodev/LabeX",
-        live: "https://github.com/gustavomonteirodev/LabeX/blob/main/url" 
+        live: "https://labe-travels.surge.sh/" 
     },
     {
       id: 4,

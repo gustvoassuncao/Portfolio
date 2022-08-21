@@ -8,8 +8,7 @@ export const HomeContainer = styled.div`
  
 
 @media screen and (max-width:1000px){
-    top: 20% ; 
-    /* width: 80%; */
+    top: 17% ; 
 }
 `
 
@@ -18,6 +17,9 @@ export const PhotoContainer = styled.div`
         width: 55%; 
         filter: grayscale(30%);
         border-radius: 200px;  
+        box-shadow: 1px 3px 5px 2px #6833e4;
+    &:hover {
+      box-shadow: 1px 3px 5px 2px #04d361;}
         
 @media screen and (max-width:1000px){
         width: 70%; 
@@ -86,6 +88,9 @@ export const ButtonContainer = styled.div`
         color: white; 
         &:hover {
             background-color: #6833e4; 
+        @media screen and (max-width:1000px){
+            margin-bottom: 50px;
+        }
         }
     
     @media screen and (max-width:1000px){

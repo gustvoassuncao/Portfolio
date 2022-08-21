@@ -8,6 +8,8 @@ export const ContainerHeader = styled.div`
     align-items: center;
     position: fixed;
     border-right: 1px solid #a8a8b3; 
+
+
 `
 export const Buttons = styled.div`
    svg {
@@ -26,8 +28,6 @@ export const Buttons = styled.div`
             color: #04d361; 
         };
     }
-
-
 
 `
 
@@ -51,7 +51,11 @@ export const Socials = styled.div`
     }
 
     @media screen and (max-width:1000px){
-        padding-top: 450px; 
+        padding-bottom: 1100px; 
+        .git {
+            display:none;
+        }
+
 }
 
 `

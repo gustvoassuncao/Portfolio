@@ -4,7 +4,6 @@ import {goToHome, goToSkills, goToEducation, goToContact, goToPortfolio } from "
 import { ContainerHeader, Buttons, Socials } from "./HeaderStyles"
 import { AiOutlineHome, AiOutlineUser, AiOutlineCoffee, AiOutlineMail, AiOutlineLaptop, AiOutlineGithub, AiOutlineLinkedin
 } from "react-icons/ai";
-
     const Header = () => {
     const navigate = useNavigate ()
 
@@ -18,7 +17,7 @@ import { AiOutlineHome, AiOutlineUser, AiOutlineCoffee, AiOutlineMail, AiOutline
             <AiOutlineMail onClick={()=> goToContact(navigate)} />
             </Buttons>
             <Socials>
-            <a href='https://github.com/gustavomonteirodev' target="_blank">
+            <a href='https://github.com/gustavomonteirodev' className="git" target="_blank">
             <AiOutlineGithub  /> </a>  
             <a href='https://www.linkedin.com/in/gustavomonteirodev/' target="_blank"> 
             <AiOutlineLinkedin  /> </a>  
