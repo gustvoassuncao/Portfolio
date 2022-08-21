@@ -1,7 +1,6 @@
 import React from "react";
 import {MdOutlineMarkEmailRead} from 'react-icons/md'
 import {FiPhoneCall} from 'react-icons/fi'
-import './contato.css'
 import { ContainerGeral } from "./ContactStyled"
 import { Title  } from "../../Pages/Portfolio/PortfolioStyled"
     const Contact = () => {
