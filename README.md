@@ -1,6 +1,6 @@
 # ⚡ Meu porftolio 
 
-Portfolio mostrando projetos desenvolvidos por mim e em equipe, sempre utilizando git e commitando todas as alterações no código. 
+Meu Portfolio mostrando projetos desenvolvidos por mim e em equipe, sempre utilizando git e commitando todas as alterações no código. 
 
 ## 👨‍💻 Sobre
 - Aplicação com barra lateral e icones para navegação da página;
